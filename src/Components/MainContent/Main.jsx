@@ -12,7 +12,7 @@ function Main() {
       users: "Upto 25 Users",
       storage: "Upto 25gb Storage",
       email: "Email Support",
-      color:"#ffe7a9"
+      color: "#ffe7a9",
     },
     {
       heading: "Standard",
@@ -21,7 +21,7 @@ function Main() {
       users: "Upto 50 Users",
       storage: "Upto 60gb Storage",
       email: "Email+Chart Support",
-      color:"#ff9494"
+      color: "#ff9494",
     },
     {
       heading: "Premium",
@@ -30,33 +30,35 @@ function Main() {
       users: "Upto 75 Users",
       storage: "Upto 100gb Storage",
       email: "Email+Chat+Whatspp Support",
-      color:"#e7a2ff"
-    }
+      color: "#e7a2ff",
+    },
   ]);
 
   const [secondRow, setSecondRow] = useState([
     {
       heading: "Free Starter",
       fbtn: "Free Forever",
-      discription: "The quickest and easiest way to try Protocols with basic functionalities",
+      discription:
+        "The quickest and easiest way to try Protocols with basic functionalities",
       users: "Upto 8 Users",
       storage: "Upto 3gb Storage",
       email: "Email Support",
-      tic:"Basics of Documents, Task Flow Voting, Accounting, Banking, Notes, Invester, Director and Team Management included",
-      color:"#c6ff8e",
-      sbtn:"Get Started"
+      tic: "Basics of Documents, Task Flow Voting, Accounting, Banking, Notes, Invester, Director and Team Management included",
+      color: "#c6ff8e",
+      sbtn: "Get Started",
     },
     {
       heading: "Enterprise Plan",
       fbtn: "Let's Connect",
-      discription: "Effortlessly customize and fine-tune services as your needs shift,ensuring the perfect tools for success",
+      discription:
+        "Effortlessly customize and fine-tune services as your needs shift,ensuring the perfect tools for success",
       users: "Upto 75 Users",
       storage: " ",
       email: " ",
-      tic:"Cusomization of all other features",
-      color:"#8ab9ff",
-      sbtn:"Contact Us"
-    }
+      tic: "Cusomization of all other features",
+      color: "#8ab9ff",
+      sbtn: "Contact Us",
+    },
   ]);
 
   return (
@@ -77,20 +79,17 @@ function Main() {
           </div>
           {/* plan   */}
           <div className="plan">
-
-            {  firstRow.length>0 && firstRow.map((card,index)=>(
-                 <Firstcard key={index}  card={card} />
-            ))
-
-            }
+            {firstRow.length > 0 &&
+              firstRow.map((card, index) => (
+                <Firstcard key={index} card={card} />
+              ))}
           </div>
         </div>
         <div className="second-row">
-         { secondRow.length > 0 && 
-           secondRow.map((card, index)=>(
-            <Secondcard key={index} card={card} />
-           ))
-         }
+          {secondRow.length > 0 &&
+            secondRow.map((card, index) => (
+              <Secondcard key={index} card={card} />
+            ))}
         </div>
       </div>
     </>

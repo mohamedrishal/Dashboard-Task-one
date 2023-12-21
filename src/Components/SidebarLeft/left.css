@@ -121,6 +121,12 @@
     .sidebar{
         height: 100vh;
     }
+    .main-content{
+        position: relative;
+        width: calc(80%);
+        left: 200px;
+        margin-right: 50px;
+    }
     .rightside{
         height: 100vh;
     }
@@ -139,6 +145,12 @@
     .sidebar{
         width: 200px;
         height: 100vh;
+    }
+    .main-content{
+        position: relative;
+        width: calc(80%);
+        left: 190px;
+        margin-right: 10px;
     }
     .logo{
         width: 14.5rem;
