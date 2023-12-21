@@ -1,0 +1,57 @@
+.rightside{
+    margin-top: 95px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 4rem;
+    background-color: #e3f1fe ;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.bell-icon{
+    border-radius: 5px 0px 0px 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    background: #ffffff;
+    color: #2b7ec9;
+    width: 37px;
+    height: 40px;
+    box-shadow: 0 1px 10px  0 #d6e0e5e0, 0 1px 4px 0 rgba(222, 222, 222, 0.434);
+
+}
+
+.div-blank{
+    margin-top: 280px;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     background: #ffffff;
+     width: 37px;
+     height: 150px;
+     box-shadow: 0 1px 10px  0 #d6e0e5e0, 0 1px 4px 0 rgba(222, 222, 222, 0.434);
+}
+
+.add-btn{
+    display: flex;
+    justify-content: center;
+    color: linear-gradient(to bottom, #33ccff 0%, #ff33cc 100%);
+    align-items: center;
+    margin-top: 40px;
+    margin-right: 2px;
+    vertical-align: middle;
+    background: #cadff4;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0 1px 10px  0 #d6e0e5e0, 0 1px 4px 0 rgba(222, 222, 222, 0.434);
+}

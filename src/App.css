@@ -1,0 +1,80 @@
+.header{
+    flex-wrap: wrap;
+    height: 6rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: #e3f1fe ;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 22rem;
+    height: 5rem;
+    border-top: 95px solid #fff;
+    border-right: 100px solid transparent;
+    display: flex;
+    justify-content: center;
+    transition: all 0.5 ease-in-out;
+    align-items: center;
+    background: #e3f1fe;
+}
+.logo img{
+    margin-bottom: 100px;
+}
+
+/* body */
+
+.body{
+ display: flex;
+ justify-content: space-between;
+}
+
+
+.head-right-section{
+    width: 19rem;
+    padding: 10px;
+    color: black;
+    margin-right: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_div {
+    height: 36px;
+    background: #ffffff;
+    width: 15rem;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px  0 #d6e0e5e0, 0 1px 4px 0 rgba(222, 222, 222, 0.434);
+}
+
+.arrow_div{
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 36px;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px  0 #d6e0e5e0, 0 1px 4px 0 rgba(222, 222, 222, 0.434);
+}
+
+
+.logocmpy{
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+   
+}
+
+
